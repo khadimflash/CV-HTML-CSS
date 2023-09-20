@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+#container{
+    display: flex;
+    height: 1100px;
+ margin-left: 10%;
+
+    
+}
+
+div.left{
+    background-color: aqua;
+    width: 30%;
+    height: 100%;
+   
+
+}
+div.left h3{
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom:  5px solid #fff;
+    font-size: 1em;
+    height: 0.5em;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+div.left h3 span{
+    background-color: #fff;
+    padding: 10px;
+}
+div.left .image img{
+    border: transparent;
+    border-radius: 100px;
+    position: relative;
+    left: 25%;
+    
+    top: 20px;
+    
+}
+
+div.right h1{
+    text-align: center;
+    font-size: 3vw;
+    text-transform: uppercase;
+}
+div.right h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+div.right h3{
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom:  2px solid rgb(143, 218, 143);
+    font-size: 1em;
+    height: 0.5em;
+}
+div.right h3 span{
+    background-color: #fff;
+    padding: 5px;
+}
+div.left table{
+    width: 100%;
+}
+div.left >p,table {
+    text-align: justify;
+    margin-left: 45px;
+    margin-right: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+div.left .description{
+    text-align: justify;
+    margin-left: 45px;
+    margin-right: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+    white-space: nowrap;
+
+}
+div.left .description i{
+    margin-right: 20px;
+    background-color: #fff;
+    width: 40px;
+    padding: 5px;
+    font-size: 30px;
+}
+div.left  .image +h1{
+    text-align: center;
+}
+div.right h4{
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+div.right >p{
+    margin-left: 15px;
+    margin-right: 15px;
+   text-align: justify;
+   margin-top: 0;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+  
+}
+div.right{
+    background-color: aliceblue;
+    width: 50%;
+}
+div.right #container2{
+    display: flex;
+    justify-content: space-evenly;
+}
+div.right #container2 .language,.computer{
+    width: 45%;
+}
+div.right #container2  table {
+    width: 100%;
+}
+
+
